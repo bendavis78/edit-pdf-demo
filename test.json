@@ -1,0 +1,25 @@
+{
+  "template": "template.pdf",
+  "output_format": "pdf",
+  "dpi": "72",
+  "areas": [
+    {
+      "type": "text",
+      "x": 70,
+      "y": 50,
+      "font_family": "Times",
+      "font_slant": "italic",
+      "font_weight": "normal",
+      "font_size": 24,
+      "content": "The quick brown fox jumped over the lazy dog."
+    },
+    {
+      "type": "image",
+      "x": 200,
+      "y": 300,
+      "width": 200,
+      "height": 200,
+      "src": "test.png"
+    }
+  ]
+}
